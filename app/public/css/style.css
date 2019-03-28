@@ -5,6 +5,16 @@
     margin-top: -10px;
 }
 
+.submit-to-hide{
+    border: none;
+    background: none;
+    margin: 10px auto;
+}
+
+.introduction{
+    margin: 15px;
+}
+
 .main-child-box{
     margin-top : -20px;
 }

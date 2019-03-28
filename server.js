@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'app/public')));
 
 // Routes
 // =============================================================
-require("./app/routes/api_routes")(app);
+// require("./app/routes/api_routes")(app);
 require("./app/routes/html_routes")(app);
 
 var exphbs = require("express-handlebars");
