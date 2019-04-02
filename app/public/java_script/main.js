@@ -195,7 +195,7 @@ $(document).ready(function () {
             });
 
         // Empty each input box//
-        message.val("");
+        $("#new-message").empty();
 
     });
 });

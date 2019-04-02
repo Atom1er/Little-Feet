@@ -169,7 +169,7 @@ module.exports = function(passport, app, daycare_data) {
     app.post('/signup', passport.authenticate('local-signup', {
         successRedirect: '/',
  
-        failureRedirect: '/api'
+        failureRedirect: '/api/error'
     }));
     
       //-----------------------------------------------//
