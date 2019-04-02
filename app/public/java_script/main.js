@@ -22,7 +22,7 @@ $(document).ready(function () {
     parent.on('click', ()=>{
         modalbody.empty();
         var form = '<form id="signin" name="signin" method="post" action="/ParentSignin">';
-        form += '<div class="row justify-content-center"><div class="col-4"><label for="email">Chil name</label></div>';
+        form += '<div class="row justify-content-center"><div class="col-4"><label for="email">Child name</label></div>';
         form += '<input class="text" name="email" type="text" /></div>';
         form += '<div class="row justify-content-center"><div class="col-4"><label for="password">Password</label></div>';
         form += '<input name="password" type="password" /></div>';
@@ -35,7 +35,7 @@ $(document).ready(function () {
     $(document).on('click', "#i-am-parent", ()=>{
         modalbody.empty();
         var form = '<form id="signin" name="signin" method="post" action="/ParentSignin">';
-        form += '<div class="row justify-content-center"><div class="col-4"><label for="email">Chil name</label></div>';
+        form += '<div class="row justify-content-center"><div class="col-4"><label for="email">Child name</label></div>';
         form += '<input class="text" name="email" type="text" /></div>';
         form += '<div class="row justify-content-center"><div class="col-4"><label for="password">Password</label></div>';
         form += '<input name="password" type="password" /></div>';
@@ -97,31 +97,6 @@ $(document).ready(function () {
         dateOfBirth.val("");
 
     });
-
-    /// Account Creation
-
-    // $("#account").on('click', (even)=>{
-    //     alert('test okay');
-    //     var email = $("#email");
-    //     var firstname = $("#firstname");
-    //     var lastname = $("#lastname");
-    //     var password = $("#password");
-
-    //     var new_account = {
-    //         email: email,
-    //         firstname: firstname,
-    //         lastname: lastname,
-    //         password: password
-    //     };
-    //     console.log(new_account);
-    //     $.post("/api/new/account", new_account)
-    //     // On success, run the following code
-
-    //     .then(function (data) {
-    //         // Log the data we found
-    //         console.log(data);
-    //     });
-    // });
 
     //creating activities from index adiministrator site // 
     $("#submit-activity").on("click", function (event) {
