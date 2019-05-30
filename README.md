@@ -6,7 +6,7 @@ Website designed for a baby daycare provider. It allows the care provider to cre
 
 [Visit](https://little-feet.herokuapp.com/)
 
-![Picture](./assets/images/little-feet.PNG)
+![Picture](https://atom1er.github.io/thomas-portfolio/assets/images/little%20feet.PNG)
 
 
 
